@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "278545422030",
+    "project_id": "fir-petsapp-login",
+    "storage_bucket": "fir-petsapp-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278545422030:android:966a8dd0c085c04f85629f",
+        "android_client_info": {
+          "package_name": "com.example.petsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278545422030-i5s9hdvp7huml1c6uofjhgj7hqkpi779.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.petsapp",
+            "certificate_hash": "e8491bfbcd4f7822366924741c2b9ae1306e3060"
+          }
+        },
+        {
+          "client_id": "278545422030-onvo9um93qrksc6k2um5acjo5eo4sspk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQfeOim8EP16iU_ZeY8xCHpe4ZtH0wyF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "278545422030-onvo9um93qrksc6k2um5acjo5eo4sspk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
