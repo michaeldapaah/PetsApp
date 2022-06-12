@@ -15,6 +15,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   final TextEditingController _passwordTextController = TextEditingController();
   final TextEditingController _emailTextController = TextEditingController();
   final TextEditingController _userNameTextController = TextEditingController();
+  final TextEditingController _numberTextController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,6 +56,11 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   ),
                   resuableTextField("Enter Password", Icons.lock_outline, true,
                       _passwordTextController),
+                  const SizedBox(
+                    height: 20,
+                  ),
+                  resuableTextField("Enter Phone number", Icons.add_call, false,
+                      _numberTextController),
                   const SizedBox(
                     height: 20,
                   ),
