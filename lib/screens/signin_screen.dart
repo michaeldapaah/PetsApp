@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:petsapp/screens/signup_screen.dart';
 import '../reusable_widgets/reusable_widget.dart';
 import '../utils/color_utils.dart';
-import 'home_screen.dart';
+import 'components/home_screen.dart';
 
 class SignInScreen extends StatefulWidget {
   const SignInScreen({Key? key}) : super(key: key);
@@ -36,6 +36,13 @@ class _SignInScreenState extends State<SignInScreen> {
             child: Column(
               children: <Widget>[
                 logoWidget("assets/images/pet.png"),
+                const Text(
+                  "Pets App",
+                  style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 24,
+                      fontWeight: FontWeight.bold),
+                ),
                 const SizedBox(
                   height: 30,
                 ),
@@ -67,7 +74,8 @@ class _SignInScreenState extends State<SignInScreen> {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const Text("Don't account? ", style: TextStyle(color: Colors.white70)),
+        const Text("Don't have account? ",
+            style: TextStyle(color: Colors.white70)),
         GestureDetector(
           onTap: () {
             Navigator.push(context,

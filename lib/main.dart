@@ -1,6 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:petsapp/screens/signin_screen.dart';
 
+import 'package:copy_with_extension/copy_with_extension.dart';
+
+//part 'basic_class.g.dart';
+
+@CopyWith()
+class BasicClass {
+  final String id;
+  final String? text;
+
+  const BasicClass({ required this.id, this.text});
+}
+
 void main() {
   runApp(const MyApp());
 }
@@ -12,7 +24,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Pets App',
       theme: ThemeData(
         // This is the theme of your application.
         //
